@@ -47,7 +47,7 @@ export default function Code() {
 
       <div className="hslide skillsl">
         <span className="mono">Skills</span>
-        {Object.entries(skills).map(([k, list]) => <div key={k}><small className="mono">{k}</small><div className="tags">{list.map((s) => <span key={s}>{s}</span>)}</div></div>)}
+        {Object.entries(skills).map(([k, list]) => <div key={k}><small className="mono">{k}</small><div className="tags ">{list.map((s) => <span key={s}>{s}</span>)}</div></div>)}
       </div>
     </HScroll>
   );
